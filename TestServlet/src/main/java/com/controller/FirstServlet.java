@@ -13,7 +13,6 @@ public class FirstServlet extends HttpServlet {
        
     public FirstServlet() {
         super();
-        System.out.println("fisrt");
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
